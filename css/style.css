@@ -1,0 +1,175 @@
+:root {
+    --bg_form: #EBEBEB;
+    --primaire: #FFA384;
+    --secondaire: #74BDCB;
+
+}
+
+html {
+    background: -webkit-linear-gradient(-50deg, rgb(206, 255, 255), rgb(255, 255, 255));
+    background: linear-gradient(-50deg, rgb(206, 255, 255), rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+    float: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: inline-block;
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /*background-image: url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&utm_medium=referral);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;*/
+    padding: 10px;
+
+}
+
+h3 {
+    width: 100%;
+}
+
+header > h1 {
+    background-color: yellow;
+}
+
+.sec_preamble {
+    float: left;
+    margin-top: 40px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.story > q {
+    border-left: 3px dotted;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-content: center;
+    width: fit-content;
+    background-color: lightgray;
+    font-size: 160%;
+    align-self: center;
+}
+
+.bad, .good {
+    font-style: normal;
+    text-transform: capitalize;
+}
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+.quotes.quote_villager {
+    border-left-color: red;
+}
+
+.quotes.quote_farmer {
+    border-left-color: yellow !important;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+    caption-side: bottom;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+table > caption {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+table th, table td { 
+    text-align: center;
+    padding: 1rem;
+    
+}
+table tr td {
+    height: 2rem;
+}
+
+table thead th {
+    color: var(--texte);
+    background: var(--primaire);
+}
+
+table thead th:nth-child(odd) {
+    color: var(--texte);
+    background: var(--secondaire)
+}
+
+table tr:nth-child(2n) {
+    background: var(--bg_form);
+}
+
+table {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    border-collapse: collapse;
+    width: 30%;
+    height: 2rem;
+    white-space: nowrap;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    word-spacing: 7%;
+    font-size: 1rem;
+}
+
+img {
+    width: 400px;
+    box-shadow: 50px -15px #429090;
+}
+
+
+figure {
+    margin-right: 100px;
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+p:first-child {
+    font-style: bold;
+}
+
+.signature {
+    text-align: end;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
